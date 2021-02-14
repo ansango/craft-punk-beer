@@ -44,7 +44,7 @@
               </div>
             </div>
             <div class="w-2/3 flex flex-wrap">
-              <div v-for="(malt, index) in hops" :key="index">
+              <div v-for="(malt, index) in malts" :key="index">
                 <p class="m-1 py-1 px-2 rounded-full bg-indigo-200 text-sm">
                   {{ malt }}
                 </p>
