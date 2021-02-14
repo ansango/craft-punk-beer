@@ -7,9 +7,11 @@
         <div class="-mx-8 px-8">
           <div v-if="colour" class="flex items-center mt-1">
             <div class="w-full">
-              <div class="bg-gray-300 w-full rounded-lg h-2">
+              <div
+                class="bg-gradient-to-r from-yellow-100 to-yellow-600 w-full rounded-lg h-2"
+              >
                 <div
-                  class="bg-indigo-600 rounded-lg h-2"
+                  class="bg-gray-600 bg-opacity-30 rounded-lg h-2"
                   :class="widthColour"
                 ></div>
               </div>
