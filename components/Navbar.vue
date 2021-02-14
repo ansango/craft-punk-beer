@@ -151,7 +151,7 @@ export default {
       links: [
         { name: 'Craft Punk', path: '/' },
         { name: 'Beers', path: '/beers' },
-        { name: 'Selector', path: '/selector' },
+        // { name: 'Selector', path: '/selector' },
         { name: 'Random', path: '/random' },
       ],
       menuOpen: false,

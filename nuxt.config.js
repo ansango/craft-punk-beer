@@ -13,15 +13,13 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   css: [],
-  plugins: [],
   components: true,
   buildModules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
   ],
-  modules: ['@nuxtjs/axios', '@nuxtjs/pwa'],
-  axios: {},
+  modules: ['@nuxtjs/pwa', '@nuxt/http'],
   pwa: {
     manifest: {
       lang: 'en',
